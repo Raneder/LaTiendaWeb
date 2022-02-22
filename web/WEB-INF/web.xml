@@ -8,6 +8,10 @@
         <servlet-name>ControladorProducto</servlet-name>
         <servlet-class>Controlador.ControladorProducto</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>ControladorVenta</servlet-name>
+        <servlet-class>Controlador.ControladorVenta</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>Validar</servlet-name>
         <url-pattern>/Validar</url-pattern>
@@ -15,6 +19,10 @@
     <servlet-mapping>
         <servlet-name>ControladorProducto</servlet-name>
         <url-pattern>/ControladorProducto</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ControladorVenta</servlet-name>
+        <url-pattern>/ControladorVenta</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>
