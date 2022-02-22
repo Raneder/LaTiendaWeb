@@ -30,6 +30,7 @@ public Venta(int idventa, Date fecha, int idCliente, Cliente cliente) {
         this.cliente = cliente;
     }
 
+
     public Cliente getCliente() {
         return cliente;
     }
